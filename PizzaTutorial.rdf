@@ -606,6 +606,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SpinachTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SpinachTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ThinAndCrispyBase -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ThinAndCrispyBase">
