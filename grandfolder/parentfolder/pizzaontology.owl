@@ -416,6 +416,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NormalBeefTopping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NormalBeefTopping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#OliveTopping -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#OliveTopping">
