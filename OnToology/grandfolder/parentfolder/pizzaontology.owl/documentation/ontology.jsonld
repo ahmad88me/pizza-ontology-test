@@ -1,0 +1,931 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#JalapenoPepperTopping"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheeseTopping"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "_:genid14"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid17"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "http://www.w3.org/2001/XMLSchema#minExclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "_:genid21"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Hot"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasSpiciness"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "_:genid26"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid29"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "http://www.w3.org/2001/XMLSchema#maxExclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "400"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperoniTopping"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid34"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaBase"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#OliveTopping"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ParmesanTopping"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid44"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#OliveTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ParmesanTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Hot"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Medium"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Mild"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "_:genid55"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid56"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#hasValue" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Hot"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasSpiciness"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "_:genid60"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperoniTopping"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "_:genid61"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheeseTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaHotPizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaPizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MargheritaPizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SohoPizza"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AnchovyTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PrawnTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TunaTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CaperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MushroomTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#OliveTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "_:genid10"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheeseTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SeafoodTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#GreenPepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#JalapenoPepperTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#RedPepperTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#HamTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperoniTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SalamiTopping"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SpicyBeefTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaBase"
+    }, {
+      "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A tutorial ontology for the Pizza domain."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaHotPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza that only has Mozarella, Tomato, Pepperoni and JalapenoPepper toppings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NamedPizza"
+  }, {
+    "@id" : "_:genid1"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaHotPizza1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "754"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaHotPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaHotPizza2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "799"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaHotPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza that only has Mozarella, Tomato, and Pepperoni toppings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NamedPizza"
+  }, {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  }, {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaPizza1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "723"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AmericanaPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#AnchovyTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CaperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheeseTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheesyPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#DeepPanBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaBase"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ThinAndCrispyBase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#GreenPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#HamTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#HighCaloriePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Hot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isSpicierThan" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Medium"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Spiciness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#InterestingPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#JalapenoPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperTopping"
+  }, {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#LowCaloriePizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MargheritaPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza that only has Mozarella and Tomato toppings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NamedPizza"
+  }, {
+    "@id" : "_:genid31"
+  }, {
+    "@id" : "_:genid32"
+  }, {
+    "@id" : "_:genid33"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MargheritaPizza1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "263"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MargheritaPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MargheritaPizza2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "245"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MargheritaPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Medium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isSpicierThan" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Mild"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Mild",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Spiciness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MozzarellaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheeseTopping"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ParmesanTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MushroomTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NamedPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NormalBeefTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#OliveTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ParmesanTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#CheeseTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperoniTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid37"
+  }, {
+    "@id" : "_:genid38"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PrawnTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#RedPepperTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PepperTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SalamiTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SeafoodTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SohoPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A pizza that only has Mozarella, Tomato, Olive, and Parmesan toppings."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#NamedPizza"
+  }, {
+    "@id" : "_:genid39"
+  }, {
+    "@id" : "_:genid40"
+  }, {
+    "@id" : "_:genid41"
+  }, {
+    "@id" : "_:genid42"
+  }, {
+    "@id" : "_:genid43"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SohoPizza1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "399"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SohoPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SohoPizza2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "386"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SohoPizza"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Spiciness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SpicyBeefTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#MeatTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SpicyPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SpinachTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#ThinAndCrispyBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaBase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TomatoTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#TunaTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#SeafoodTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetableTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#VegetarianPizza",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasBase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaBase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isBaseOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasCaloricContent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasIngredient",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasSpiciness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Spiciness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasTopping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Pizza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#PizzaTopping"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#hasIngredient"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isToppingOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isBaseOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isIngredientOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isIngredientOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isMilderThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isSpicierThan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isSpicierThan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#Spiciness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isToppingOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/garciafernandezj/ontologies/2024/2/PizzaTutorial#isIngredientOf"
+  } ]
+} ]
