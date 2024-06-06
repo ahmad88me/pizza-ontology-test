@@ -1,0 +1,37 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "PizzaTutorial:SalamiTopping" "PizzaTutorial:MargheritaPizza" "PizzaTutorial:AnchovyTopping" "PizzaTutorial:OliveTopping" "PizzaTutorial:GreenPepperTopping" "PizzaTutorial:VegetableTopping" "PizzaTutorial:LowCaloriePizza" "PizzaTutorial:RedPepperTopping" "PizzaTutorial:NormalBeefTopping" "PizzaTutorial:HamTopping" "PizzaTutorial:SpinachTopping" "PizzaTutorial:ThinAndCrispyBase" "PizzaTutorial:AmericanaPizza" "PizzaTutorial:MozzarellaTopping" "PizzaTutorial:PizzaTopping" "PizzaTutorial:Pizza" "PizzaTutorial:JalapenoPepperTopping" "PizzaTutorial:ParmesanTopping" "PizzaTutorial:TunaTopping" "PizzaTutorial:MeatTopping" "PizzaTutorial:PrawnTopping" "PizzaTutorial:CheeseTopping" "PizzaTutorial:TomatoTopping" "PizzaTutorial:PizzaBase" "PizzaTutorial:NamedPizza" "PizzaTutorial:DeepPanBase" "PizzaTutorial:MushroomTopping" "PizzaTutorial:SpicyBeefTopping" "PizzaTutorial:SeafoodTopping" "PizzaTutorial:AmericanaHotPizza" "PizzaTutorial:SohoPizza" "PizzaTutorial:CaperTopping" "PizzaTutorial:PepperoniTopping" "PizzaTutorial:PepperTopping" ; /*classes style*/
+	"PizzaTutorial:OliveTopping" -> "PizzaTutorial:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:VegetableTopping" -> "PizzaTutorial:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:ParmesanTopping" -> "PizzaTutorial:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:CaperTopping" -> "PizzaTutorial:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:MargheritaPizza" -> "PizzaTutorial:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:SpinachTopping" -> "PizzaTutorial:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:ThinAndCrispyBase" -> "PizzaTutorial:PizzaBase" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:AmericanaPizza" -> "PizzaTutorial:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:NamedPizza" -> "PizzaTutorial:Pizza" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:PrawnTopping" -> "PizzaTutorial:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:MushroomTopping" -> "PizzaTutorial:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:MeatTopping" -> "PizzaTutorial:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:RedPepperTopping" -> "PizzaTutorial:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:PepperTopping" -> "PizzaTutorial:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:PepperoniTopping" -> "PizzaTutorial:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:DeepPanBase" -> "PizzaTutorial:PizzaBase" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:HamTopping" -> "PizzaTutorial:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:JalapenoPepperTopping" -> "PizzaTutorial:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:AmericanaHotPizza" -> "PizzaTutorial:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:SeafoodTopping" -> "PizzaTutorial:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:CheeseTopping" -> "PizzaTutorial:PizzaTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:SalamiTopping" -> "PizzaTutorial:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:TunaTopping" -> "PizzaTutorial:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:TomatoTopping" -> "PizzaTutorial:VegetableTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:GreenPepperTopping" -> "PizzaTutorial:PepperTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:MozzarellaTopping" -> "PizzaTutorial:CheeseTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:LowCaloriePizza" -> "PizzaTutorial:Pizza" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:SohoPizza" -> "PizzaTutorial:NamedPizza" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:NormalBeefTopping" -> "PizzaTutorial:MeatTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:AnchovyTopping" -> "PizzaTutorial:SeafoodTopping" [ label = "rdfs:subClassOf" ];
+	"PizzaTutorial:SpicyBeefTopping" -> "PizzaTutorial:MeatTopping" [ label = "rdfs:subClassOf" ];
+
+}
